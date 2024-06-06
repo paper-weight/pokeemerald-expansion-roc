@@ -1,3 +1,31 @@
+// this is all the shit i somehow got to work here
+/* {
+	.lvl = 100,
+	.species = SPECIES_TYRANITAR,
+	.ability = ABILITY_UNNERVE,
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+	.nature = NATURE_MODEST,
+	.heldItem = ITEM_SITRUS_BERRY
+	} THIS FUCKING GUY DECIDED TO WORK SO NOW HERE HE STAYS, YOURE WELCOME MR. CALVIN  */
+	
+// and this is a format i found on github pokeemerald-expansion/pull/3545   thanks mrgriffin
+	/* {
+        .species = SPECIES_WOBBUFFET,
+        .ball = ITEM_MASTER_BALL,
+        .ability = ABILITY_TELEPATHY,
+        .friendship = 42,
+        .gender = TRAINER_MON_FEMALE,
+        .heldItem = ITEM_ASSAULT_VEST,
+        .isShiny = TRUE,
+        .iv = TRAINER_PARTY_IVS(25,26,27,28,29,30),
+        .ev = TRAINER_PARTY_EVS(252, 0, 0, 252, 4, 0),
+        .lvl = 67,
+        .moves = {MOVE_AIR_SLASH, MOVE_BARRIER, MOVE_SOLAR_BEAM, MOVE_EXPLOSION},
+        .nature = NATURE_HASTY,
+        .nickname = COMPOUND_STRING("Bubbles")
+    }, */
+
+
 static const struct TrainerMon sParty_Sawyer1[] = {
     {
     .lvl = 21,
@@ -4050,7 +4078,7 @@ static const struct TrainerMon sParty_Shelby5[] = {
     }
 };
 
-static const struct TrainerMon sParty_Calvin1[] = {
+static const struct TrainerMon sParty_Calvin1[] = { //I COULD NOT FOR THE LIFE OF ME GET ABILITIES TO WORK FUCKK AS OF JUNE 5, 2024 AT 8:48PM THEY WORK NOW
     {
     .lvl = 5,
     .species = SPECIES_POOCHYENA,
@@ -4061,6 +4089,13 @@ static const struct TrainerMon sParty_Calvin1[] = {
 	.species = SPECIES_VENIPEDE,
 	.heldItem = ITEM_SITRUS_BERRY,
 	}
+	/* {
+	.lvl = 100,
+	.species = SPECIES_TYRANITAR,
+	.ability = ABILITY_UNNERVE,
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+	.nature = NATURE_MODEST,
+	} */ //THIS FUCKING GUY DECIDED TO WORK SO NOW HERE HE STAYS, YOURE WELCOME MR. CALVIN1  
 };
 
 static const struct TrainerMon sParty_Billy[] = {
