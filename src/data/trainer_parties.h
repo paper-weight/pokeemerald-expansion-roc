@@ -4098,15 +4098,43 @@ static const struct TrainerMon sParty_Calvin1[] = { //I COULD NOT FOR THE LIFE O
 	} */ //THIS FUCKING GUY DECIDED TO WORK SO NOW HERE HE STAYS, YOURE WELCOME MR. CALVIN1  
 };
 
-static const struct TrainerMon sParty_Billy[] = {
+static const struct TrainerMon sParty_Billy[] = { //minimonkey671
     {
-    .lvl = 5,
-    .species = SPECIES_ZIGZAGOON,
+    .lvl = 10,
+    .species = SPECIES_WOOPER,
+	.heldItem = ITEM_EVIOLITE,
+	.ability = ABILITY_UNAWARE,
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+	.nature = NATURE_BOLD,
+	.moves = {MOVE_TOXIC, MOVE_SUBSTITUTE, MOVE_RECOVER, MOVE_PROTECT},
     },
     {
-    .lvl = 7,
-    .species = SPECIES_SEEDOT,
-    }
+    .lvl = 10,
+    .species = SPECIES_MEW,
+	.heldItem = ITEM_LEFTOVERS,
+	.ability = ABILITY_SYNCHRONIZE,
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+	.nature = NATURE_HASTY,
+	.moves = {MOVE_SHADOW_BALL, MOVE_TOXIC_SPIKES, MOVE_AVALANCHE, MOVE_PSYCHIC},
+    },
+	{
+	.lvl = 10,
+	.species = SPECIES_WOOPER_PALDEAN,
+	.heldItem = ITEM_LIFE_ORB,
+	.ability = ABILITY_POISON_POINT,
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+	.nature = NATURE_ADAMANT,
+	.moves = {MOVE_BODY_SLAM, MOVE_LIQUIDATION, MOVE_POISON_JAB, MOVE_ROCK_SLIDE},
+	},
+	{
+	.lvl = 10,
+	.species = SPECIES_VAPOREON,
+	.heldItem = ITEM_LEFTOVERS,
+	.ability = ABILITY_WATER_ABSORB,
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+	.nature = NATURE_CALM,
+	.moves = {MOVE_ACID_ARMOR, MOVE_CHARM, MOVE_TAIL_WHIP, MOVE_ALLURING_VOICE},
+	}
 };
 
 static const struct TrainerMon sParty_Josh[] = {
