@@ -113,7 +113,7 @@ static const struct TrainerMon sParty_Gabrielle1[] = {
     }
 };
 
-static const struct TrainerMon sParty_GruntPetalburgWoods[] = {
+static const struct TrainerMon sParty_GruntPetalburgWoods[] = { // last trainer to change in petalburg woods
     {
     .lvl = 9,
     .species = SPECIES_POOCHYENA,
@@ -7866,20 +7866,36 @@ static const struct TrainerMon sParty_Rick[] = {
 
 static const struct TrainerMon sParty_Lyle[] = {
     {
-    .lvl = 3,
-    .species = SPECIES_WURMPLE,
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 11,
+    .species = SPECIES_SILCOON,
+	.heldItem = ITEM_EVIOLITE,
+	.nature = NATURE_QUIET,
+	.moves = {MOVE_SNORE, MOVE_IRON_DEFENSE, MOVE_POISON_STING, MOVE_ELECTROWEB},
+    },
+	{
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 11,
+    .species = SPECIES_CASCOON,
+	.heldItem = ITEM_EVIOLITE,
+	.nature = NATURE_QUIET,
+	.moves = {MOVE_SNORE, MOVE_IRON_DEFENSE, MOVE_BUG_BITE, MOVE_ELECTROWEB},
     },
     {
-    .lvl = 3,
-    .species = SPECIES_WURMPLE,
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 12,
+    .species = SPECIES_BEAUTIFLY,
+	.nature = NATURE_MODEST,
+	.heldItem = ITEM_ASSAULT_VEST,
+	.moves = {MOVE_GUST, MOVE_ABSORB, MOVE_THIEF, MOVE_HYPER_BEAM},
     },
     {
-    .lvl = 3,
-    .species = SPECIES_WURMPLE,
-    },
-    {
-    .lvl = 3,
-    .species = SPECIES_WURMPLE,
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 12,
+    .species = SPECIES_DUSTOX,
+	.nature = NATURE_MODEST,
+	.heldItem = ITEM_AGUAV_BERRY,
+	.moves = {MOVE_CONFUSION, MOVE_TOXIC, MOVE_SUBSTITUTE, MOVE_ROOST},
     }
 };
 
@@ -7926,14 +7942,22 @@ static const struct TrainerMon sParty_Kent[] = {
 };
 
 static const struct TrainerMon sParty_James1[] = {
-    {
-    .lvl = 6,
-    .species = SPECIES_NINCADA,
+    { //didnt want to make the first mon here too difficult, especially with spidops after
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 12,
+    .species = SPECIES_DEWPIDER,
+	.nature = NATURE_MODEST,
+	.heldItem = ITEM_AGUAV_BERRY,
+	.moves = {MOVE_BUBBLE_BEAM, MOVE_RAIN_DANCE, MOVE_BITE, MOVE_LEECH_LIFE},
     },
-    {
-    .lvl = 6,
-    .species = SPECIES_NINCADA,
-    }
+    { //this spidops might be a bit far idk
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 15,
+    .species = SPECIES_SPIDOPS,
+	.nature = NATURE_ADAMANT,
+	.heldItem = ITEM_LOADED_DICE, //guarantees bullet seed hits 4-5 times, making it a 100-125 bp move
+	.moves = {MOVE_SILK_TRAP, MOVE_LOW_KICK, MOVE_BUG_BITE, MOVE_BULLET_SEED},
+    },
 };
 
 static const struct TrainerMon sParty_James2[] = {
