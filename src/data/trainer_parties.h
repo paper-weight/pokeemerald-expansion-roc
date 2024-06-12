@@ -1414,10 +1414,33 @@ static const struct TrainerMon sParty_Valerie5[] = {
 
 static const struct TrainerMon sParty_Cindy1[] = {
     {
-    .lvl = 7,
-    .species = SPECIES_ZIGZAGOON,
-    .heldItem = ITEM_NUGGET
-    }
+    .lvl = 13,
+    .species = SPECIES_APPLIN,
+    .heldItem = ITEM_EVIOLITE,
+	.nature = NATURE_IMPISH,
+	.moves = {MOVE_POUNCE, MOVE_ROLLOUT, MOVE_GRASSY_GLIDE, MOVE_DEFENSE_CURL},
+    },
+	{
+	.lvl = 13,
+	.species = SPECIES_SHROOMISH,
+	.heldItem = ITEM_LEFTOVERS,
+	.nature = NATURE_SASSY,
+	.moves = {MOVE_MEGA_DRAIN, MOVE_DRAIN_PUNCH, MOVE_PROTECT, MOVE_POISON_POWDER},
+	},
+	{
+	.lvl = 13,
+	.species = SPECIES_PIKACHU,
+	.heldItem = ITEM_LIGHT_BALL,
+	.nature = NATURE_LONELY,
+	.moves = {MOVE_ELECTRO_BALL, MOVE_NUZZLE, MOVE_TRAILBLAZE, MOVE_ENCORE},
+	},
+	{
+	.lvl = 13,
+	.species = SPECIES_CRABRAWLER,
+	.heldItem = ITEM_AGUAV_BERRY,
+	.nature = NATURE_ADAMANT,
+	.moves = {MOVE_BULLDOZE, MOVE_ROCK_TOMB, MOVE_FACADE, MOVE_VISE_GRIP},
+	},
 };
 
 static const struct TrainerMon sParty_Daphne[] = {
