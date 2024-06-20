@@ -443,8 +443,11 @@ Route116_Text_NotWhatImLookingFor:
 	.string "They're not what I'm looking for…$"
 
 Route116_Text_RouteSignRustboro:
-	.string "ROUTE 116\n"
-	.string "{LEFT_ARROW} RUSTBORO CITY$"
+	.string "ROUTE 116\p"
+	.string "{UP_ARROW} OPTIONAL TRAINER\n"
+	.string "WARNING: DIFFICULT FIGHT\p"
+	.string "{DOWN_ARROW} NORMAL PATH\n"
+	.string "INTENDED FIGHT$"
 
 Route116_Text_RusturfTunnelSign:
 	.string "RUSTURF TUNNEL\n"
