@@ -1365,62 +1365,62 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_SUNKERN"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_PAWMI"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_NINCADA"
+                "species": "SPECIES_TOXEL"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_SNUBBULL"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_NINCADA"
+                "species": "SPECIES_DOTTLER"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_TAILLOW"
+                "species": "SPECIES_SNIVY"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_TAILLOW"
+                "species": "SPECIES_STUNKY"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_TAILLOW"
+                "species": "SPECIES_SNIVY"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_STUNKY"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_SNIVY"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_SKITTY"
+                "species": "SPECIES_STUNKY"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_SKITTY"
+                "species": "SPECIES_SNIVY"
               }
             ]
           }
@@ -11622,6 +11622,75 @@
                 "min_level": 6,
                 "max_level": 7,
                 "species": "SPECIES_NIDORAN_M"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_RUSTBORO_CITY",
+          "base_label": "gRustboroCity0",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 9,
+                "max_level": 10,
+                "species": "SPECIES_ANORITH"
+              },
+              {
+                "min_level": 9,
+                "max_level": 10,
+                "species": "SPECIES_OMANYTE"
+              },
+              {
+                "min_level": 9,
+                "max_level": 10,
+                "species": "SPECIES_SHIELDON"
+              },
+              {
+                "min_level": 9,
+                "max_level": 10,
+                "species": "SPECIES_CRANIDOS"
+              },
+              {
+                "min_level": 9,
+                "max_level": 13,
+                "species": "SPECIES_AMAURA"
+              },
+              {
+                "min_level": 9,
+                "max_level": 13,
+                "species": "SPECIES_TYRUNT"
+              },
+              {
+                "min_level": 9,
+                "max_level": 10,
+                "species": "SPECIES_SLUGMA"
+              },
+              {
+                "min_level": 9,
+                "max_level": 10,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 9,
+                "max_level": 10,
+                "species": "SPECIES_SLUGMA"
+              },
+              {
+                "min_level": 9,
+                "max_level": 10,
+                "species": "SPECIES_ROLYCOLY"
+              },
+              {
+                "min_level": 12,
+                "max_level": 13,
+                "species": "SPECIES_SLUGMA"
+              },
+              {
+                "min_level": 12,
+                "max_level": 13,
+                "species": "SPECIES_ROLYCOLY"
               }
             ]
           }
