@@ -4547,20 +4547,35 @@ static const struct TrainerMon sParty_Claude[] = {
 
 static const struct TrainerMon sParty_Elliot1[] = {
     {
-    .lvl = 10,
-    .species = SPECIES_MAGIKARP,
-    },
-    {
-    .lvl = 7,
-    .species = SPECIES_TENTACOOL,
-    },
-    {
-    .lvl = 10,
-    .species = SPECIES_MAGIKARP,
-    }
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+	.lvl = 21,
+	.species = SPECIES_GYARADOS,
+	.nature = NATURE_ADAMANT,
+	.heldItem = ITEM_WACAN_BERRY,
+	.ability = ABILITY_INTIMIDATE,
+	.moves = {MOVE_WATERFALL, MOVE_ICE_FANG, MOVE_FLAIL, MOVE_BITE},
+	},
+	{
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+	.lvl = 21,
+	.species = SPECIES_ALOMOMOLA,
+	.nature = NATURE_ADAMANT,
+	.heldItem = ITEM_LEFTOVERS,
+	.ability = ABILITY_REGENERATOR,
+	.moves = {MOVE_AQUA_RING, MOVE_BATON_PASS, MOVE_FLIP_TURN, MOVE_BOUNCE},
+	},
+	{
+	.iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+	.lvl = 21,
+	.species = SPECIES_CHINCHOU,
+	.nature = NATURE_TIMID,
+	.heldItem = ITEM_EVIOLITE,
+	.ability = ABILITY_ILLUMINATE,
+	.moves = {MOVE_THUNDER_WAVE, MOVE_BUBBLE_BEAM, MOVE_CONFUSE_RAY, MOVE_ELECTRO_BALL},
+	},
 };
 
-static const struct TrainerMon sParty_Ned[] = {
+static const struct TrainerMon sParty_Ned[] = { //custom optional trainer (probably a friend)
     {
     .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
     .lvl = 11,

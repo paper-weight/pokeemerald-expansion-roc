@@ -9,15 +9,15 @@ u32 GetCurrentLevelCap(void)
 {
     static const u32 sLevelCapFlagMap[][2] =
     {
-        {FLAG_BADGE01_GET, 16}, //changed from 15 -> 16, Roxanne's last two mons are lv16
-        {FLAG_BADGE02_GET, 19}, // TBA
-        {FLAG_BADGE03_GET, 24}, // TBA
-        {FLAG_BADGE04_GET, 29}, // TBA
-        {FLAG_BADGE05_GET, 31}, // TBA
-        {FLAG_BADGE06_GET, 33}, // TBA
-        {FLAG_BADGE07_GET, 42}, // TBA
-        {FLAG_BADGE08_GET, 46}, // TBA
-        {FLAG_IS_CHAMPION, 100}, //changed from 58 -> 100, we'll see where I actually go with this
+        {FLAG_BADGE01_GET, 16},  // 15 -> 16
+        {FLAG_BADGE02_GET, 24},  // 19 -> 24
+        {FLAG_BADGE03_GET, 36},  // 24 -> 36
+        {FLAG_BADGE04_GET, 48},  // 29 -> 48
+        {FLAG_BADGE05_GET, 52},  // 31 -> 52
+        {FLAG_BADGE06_GET, 64},  // 33 -> 64
+        {FLAG_BADGE07_GET, 76},  // 42 -> 76
+        {FLAG_BADGE08_GET, 88},  // 46 -> 88
+        {FLAG_IS_CHAMPION, 100}, // 58 -> 100
     };
 
     u32 i;
